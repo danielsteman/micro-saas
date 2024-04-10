@@ -1,34 +1,44 @@
 <svg
-  class="w-full h-full"
-  id="visual"
-  viewBox="0 0 900 900"
+  viewBox="0 0 1198 645"
+  fill="none"
   xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink"
   version="1.1"
   preserveAspectRatio="none"
 >
+  <g clip-path="url(#clip0_3_20)">
+    <path d="M1092 0H132V540H1092V0Z" fill="black" />
+  </g>
+  <g filter="url(#filter0_f_3_20)">
+    <path
+      d="M101 542L279.913 376.706C316.358 343.035 371.358 339.357 411.961 367.876V367.876C454.93 398.057 513.564 391.989 549.442 353.648L573.421 328.023C614.129 284.521 677.216 270.178 732.731 291.802L742.869 295.751C801.906 318.747 868.933 305.172 914.37 261.018L916.912 258.548C961.001 215.703 1025.04 200.487 1083.69 218.917L1111 227.5"
+      stroke="#00CC99"
+      stroke-width="75"
+    />
+  </g>
   <defs>
-    <filter id="blur1" x="-10%" y="-10%" width="120%" height="120%">
-      <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+    <filter
+      id="filter0_f_3_20"
+      x="0.552551"
+      y="98.7162"
+      width="1196.69"
+      height="545.828"
+      filterUnits="userSpaceOnUse"
+      color-interpolation-filters="sRGB"
+    >
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
       <feBlend
         mode="normal"
         in="SourceGraphic"
         in2="BackgroundImageFix"
         result="shape"
-      ></feBlend>
+      />
       <feGaussianBlur
-        stdDeviation="189"
-        result="effect1_foregroundBlur"
-      ></feGaussianBlur>
+        stdDeviation="37.5"
+        result="effect1_foregroundBlur_3_20"
+      />
     </filter>
+    <clipPath id="clip0_3_20">
+      <rect width="960" height="540" fill="white" transform="translate(132)" />
+    </clipPath>
   </defs>
-  <rect width="900" height="900" fill="#6600FF"></rect>
-  <g filter="url(#blur1)">
-    <circle cx="346" cy="826" fill="#00CC99" r="420"></circle>
-    <circle cx="74" cy="870" fill="#6600FF" r="420"></circle>
-    <circle cx="83" cy="627" fill="#00CC99" r="420"></circle>
-    <circle cx="811" cy="886" fill="#00CC99" r="420"></circle>
-    <circle cx="436" cy="500" fill="#6600FF" r="420"></circle>
-    <circle cx="648" cy="417" fill="#00CC99" r="420"></circle>
-  </g>
 </svg>
